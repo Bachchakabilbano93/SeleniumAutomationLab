@@ -1,0 +1,19 @@
+package com.amazon.project;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class amazonPOM {
+	WebDriver driver;
+	
+	public amazonPOM(WebDriver driver) {
+		this.driver = driver;
+	}
+	private By Signinbtn = By.xpath("//div[@id=\"nav-tools\"]/a[contains(@class, 'nav-a nav-a-2   nav-progressive-attribute')][1])) 
+	private String URL = "https://www.amazon.in/";
+	
+	public void Login() {
+		driver.get(URL);
+		
+	}
+}

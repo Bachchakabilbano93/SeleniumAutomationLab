@@ -1,0 +1,12 @@
+package com.amazon.project;
+
+import org.openqa.selenium.WebDriver;
+
+public class amazonPOM {
+	WebDriver driver;
+	
+	public amazonPOM(WebDriver driver) {
+		this.driver = driver;
+	}
+	private String URL = "https://www.amazon.in/";
+}

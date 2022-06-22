@@ -1,0 +1,23 @@
+package com.pom;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginClass {
+	
+	private By name = By.name("name");
+	private By email = By.name("email");
+	private By submit = By.name("action");
+	private String URL = "http://localhost:8080/examples/jsp/cal/login.html";
+	
+	public void Login(WebDriver driver) {
+		driver.get(URL);
+		driver.findElement(name).sendKeys("test");
+		driver.findElement(email).sendKeys("test");
+		driver.findElement(submit).click();
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;cnt&apos; in &apos;com.oracle.ArrayExercise.main(...)&apos; to &apos;i&apos;&#x0A;- Original project: &apos;PracClasses&apos;&#x0A;- Original element: &apos;com.oracle.ArrayExercise.main(String[]).cnt&apos;&#x0A;- Renamed element: &apos;cnt&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;cnt&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.oracle{ArrayExercise.java[ArrayExercise~main~\[QString;@cnt!162!172!166!168!I!0!false" name="i" references="true" stamp="1652467429324" version="1.0"/>
+</session>

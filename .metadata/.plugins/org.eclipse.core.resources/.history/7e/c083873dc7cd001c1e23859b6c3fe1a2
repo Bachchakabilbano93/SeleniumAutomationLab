@@ -1,0 +1,14 @@
+package com.math.lib;
+
+public class MathLib {
+	
+	int num1 = 13;
+	int num2 = 20;
+	
+	public void add() {
+		int sum = num1 + num2;
+		
+		System.out.println("Sum is "+sum);
+	}
+
+}

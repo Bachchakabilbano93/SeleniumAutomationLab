@@ -1,0 +1,14 @@
+package com.amazon.project;
+
+public class AmazonRun {
+	
+	static amazonPOM run;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

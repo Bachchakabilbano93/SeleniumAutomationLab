@@ -1,0 +1,13 @@
+package com.pom;
+
+import org.openqa.selenium.By;
+
+public class LoginClass {
+	
+	By name = By.name("name");
+	By email = By.name("email");
+	By submit = By.name("action");
+	
+	
+
+}

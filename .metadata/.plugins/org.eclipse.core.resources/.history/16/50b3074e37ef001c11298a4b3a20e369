@@ -1,0 +1,22 @@
+package com.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ReadWebTable {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		String URL = "http://localhost:8080/examples/jsp/cal/login.html";
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(URL);
+		Thread.sleep(2000);
+		driver.findElement(By.name("name")).sendKeys("test");
+		driver.findElement(By.name("email")).sendKeys("test");
+		driver.findElement(By.name("action")).click();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.google.test;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class EmployeeTableCode {
+
+	public void addEmployee(Connection conn, int eid, String name, String address) throws SQLException {
+		String qry = "insert into employee values("+eid+",'"+name+"','"+address+"')";
+//		insert into employee values(002, 'temp', 'Magic');
+		System.out.println(qry);
+		Statement statement = conn.createStatement();
+		statement.executeUpdate(qry);
+		System.out.println("Inserted record successfully");
+	}
+}

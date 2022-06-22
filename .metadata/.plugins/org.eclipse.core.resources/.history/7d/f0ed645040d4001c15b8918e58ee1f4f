@@ -1,0 +1,16 @@
+package com.google.test;
+
+import java.sql.DriverManager;
+
+public class JDBCProgram {
+
+	public static void main(String[] args) {
+		//	Connection
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:33060/employee", "root", "root");
+		//	Statement
+		//	Execute Query
+		//	Close connection	
+
+	}
+
+}
